@@ -1,13 +1,11 @@
-/* 기본 설정 */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #faf9f6; /* 부드러운 흙색 톤 */
+    background-color: #faf9f6;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
-/* 글로벌 컴포넌트: 네비게이션 */
 .global-nav {
     display: flex;
     justify-content: space-between;
@@ -20,7 +18,6 @@ body {
 .global-nav .logo { font-weight: 800; letter-spacing: 2px; }
 .global-nav ul { list-style: none; display: flex; gap: 20px; }
 
-/* 컴포넌트 1: 지역 카드 */
 .component-container {
     display: flex;
     gap: 20px;
@@ -54,7 +51,6 @@ body {
     border-radius: 20px;
 }
 
-/* 컴포넌트 2: 식물 스토리 모듈 */
 .plant-story {
     background: #fff;
     padding: 30px;
